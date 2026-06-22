@@ -26,4 +26,4 @@ jobs:
         env:
           # This pulls your Webhook URL securely from your repository secrets
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python NewStockAlert.py
+        run: python NewStockALert.py
